@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "doc111"
+  description: "test"
+  annotations:
+    github.com/project-slug: "pxdbackstagepoc/doc111"
+    backstage.io/techdocs-ref: github:https://github.com/pxdbackstagepoc/doc111
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "benlin1994"
